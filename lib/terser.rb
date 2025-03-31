@@ -226,7 +226,7 @@ class Terser
       :sourceMap => source_map_options(input_map, source_map_options)
     }
 
-    parse_result(context.call("terser_wrapper", options), generate_map, options, source_map_options)
+    parse_result(context.call("terser_wrapper_async", options), generate_map, options, source_map_options)
   end
 
   def error_context_lines
