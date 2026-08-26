@@ -10,4 +10,4 @@ metadata:
 spec:
   lifecycle: production
   type: library
-  owner: dev-ex
+  owner: security
