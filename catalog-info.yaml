@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terser-ruby
+  description: "Terser JS minifier Ruby wrapper"
+  annotations:
+    github.com/project-slug: justworkshr/terser-ruby
+    tags:
+    - javascript
+spec:
+  lifecycle: production
+  type: library
+  owner: security
